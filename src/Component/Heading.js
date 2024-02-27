@@ -7,16 +7,18 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const Heading = () => {
     return (
+        <div>
         <div className='heading'>
-            <h1>Best Website builders in the US</h1>
-            <div className='para'>
-                <CheckCircleOutlineIcon sx={{ width: 20, height: 20, color: '#4B5665' }} />
-                <p>Last Updated -</p><span>February 22, 2020</span>
-                <InfoOutlinedIcon sx={{ width: 20, height: 20, color: '#4B5665', marginLeft: '30px' }} />
-                <p>Advertising Disclosure</p>
-                <div className='toprelevant'>
-                    <p className='top'>Top Relevant<KeyboardArrowDownIcon sx={{ width: 20, height: 20, color: '#4B5665' }} /></p>
-                </div></div>
+                <h1>Best Website builders in the US</h1>
+                <div className='para'>
+                    <CheckCircleOutlineIcon sx={{ width: 20, height: 20, color: '#4B5665' }} />
+                    <p>Last Updated -</p><span>February 22, 2020</span>
+                    <InfoOutlinedIcon sx={{ width: 20, height: 20, color: '#4B5665', marginLeft: '30px' }} />
+                    <p>Advertising Disclosure</p>
+                    <div className='toprelevant'>
+                        <p className='top'>Top Relevant<KeyboardArrowDownIcon sx={{ width: 20, height: 20, color: '#4B5665' }} /></p>
+                    </div></div>
+            </div>
             <div className="header2">
                 <p className='hov'>Tools</p>
                 <p className='hov'>AWS Builder</p>
