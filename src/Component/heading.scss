@@ -1,5 +1,8 @@
 .heading {
-  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
   max-width: 1006px;
   line-height: 60px;
 
@@ -21,9 +24,10 @@
 
   .para {
     display: flex;
-    // align-items: center;
     margin-top: 10px;
     margin-top: 10px;
+    border-bottom: 1px solid#E1E4E6;
+    width: 100%;
 
     p {
       display: flex;
@@ -38,18 +42,16 @@
     }
 
     .toprelevant {
-      // p {
-        display: flex;
-        justify-content: space-between;
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px;
-        text-align: left;
-        color: #4B5665;
-        margin-left: 5px;
+      display: flex;
+      justify-content: space-between;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: left;
+      color: #4B5665;
+      margin-left: 5px;
 
-      // }/
     }
 
     span {
@@ -81,38 +83,58 @@
     }
   }
 
-  .header2 {
-    display: flex;
-    justify-content: space-around;
-    border-top: 0.1px solid rgb(228, 221, 221);
-    color: rgb(77, 74, 74);
-    text-decoration: none;
-    cursor: pointer;
-  }
 
+
+  
+  //   li {
+  //     display: flex;
+  //     align-items: center;
+  //     font-family: Inter;
+  //     font-size: 14px;
+  //     font-weight: 400;
+  //     line-height: 20px;
+  //     letter-spacing: 0em;
+  //     color: #4B5665;
+
+  //     &:not(:last-child) {
+  //       margin-right: 50px;
+  //       /* Increase the margin for more space */
+  //     }
+  //   }
+  // }
+
+
+}
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #4B5665;
+  font-weight: 400;
+  line-height: 20px;
+}
+.header3 {
   .breadcrumb {
     list-style: none;
-    padding: 0;
-    margin: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* You can adjust this property as needed */
+    margin-top: 20px;
 
     li {
-      display: flex;
-      align-items: center;
       font-family: Inter;
       font-size: 14px;
       font-weight: 400;
       line-height: 20px;
       letter-spacing: 0em;
       color: #4B5665;
+      display: flex;
+      align-items: center;
 
       &:not(:last-child) {
         margin-right: 50px;
-        /* Increase the margin for more space */
       }
     }
   }
-
-
 }
