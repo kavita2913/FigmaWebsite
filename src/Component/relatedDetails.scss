@@ -1,0 +1,137 @@
+.details_head {
+    h1 {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        color: #2C384A;
+    margin-top: 50px;
+
+    }
+}
+
+.details {
+    display: flex;
+    margin-top: 50px;
+
+    .detailsbox {
+        margin: 20px;
+
+        .card {
+            width: 300px; // Adjust width as needed
+            height: 425px;
+            border-radius: 12px;
+            background: #FFFFFF;
+            margin: 10px; // Add margin to separate cards
+
+            .image-box {
+                display: flex;
+                justify-content: center;
+
+                img {
+                    width: 141px;
+                    height: 103px;
+                    margin-top: 20px;
+                }
+            }
+
+            .detailbutton {
+                display: flex;
+                margin-top: 20px;
+                justify-content: space-evenly;
+
+                button {
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    color: #074786;
+                    background: #F2F4F7;
+                    width: 107px;
+                    height: 28px;
+                    border-radius: 8px;
+                    border: none;
+                }
+            }
+
+            h1 {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 50px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #626E79;
+            }
+
+            p {
+                width: 300px;
+                border-radius: 12px;
+                word-spacing: 3px;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em;
+                margin-left: 10px;
+            }
+
+            .price {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+
+                .disprice {
+                    font-family: Inter;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #5C6874;
+                }
+
+                .original {
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #9FA9B3;
+
+                }
+
+                .discount {
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #EF4C5D;
+
+            }
+        }
+            
+            .viewbtn{
+                width: 292px;
+                height: 48px;
+                border-radius: 12px;
+                background: #1B88F4;
+                border: none;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #FFFFFF;
+                margin-top: 20px;
+        }
+        }
+    }
+}

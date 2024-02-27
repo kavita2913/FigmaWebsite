@@ -1,0 +1,44 @@
+
+    .signupbox {
+        width: 1024px;
+        height: 171px;
+        top: 2268px;
+        left: 328px;
+        background: #FBFCFD;
+
+        .exclusive {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .signuptext {
+                width: 398;
+                height: 88px;
+
+                h1 {
+                    font-family: Inter;
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 44px;
+                    text-align: left;
+                    color: #5C6874;
+
+                }
+            }
+
+            button {
+                border: none;
+                background-color: #1B88F4;
+                color: #fff;
+                cursor: pointer;
+                padding: 10px 20px;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                border-top-right-radius: 12px;
+                border-bottom-right-radius: 12px;
+
+            }
+        }
+    }
